@@ -8,6 +8,7 @@ module.exports = appInfo => {
 
   // add your config here
   config.middleware = [];
+  
   config.view = {
     defaultViewEngine: 'nunjucks',
     mapping: {
@@ -17,6 +18,10 @@ module.exports = appInfo => {
   config.news = {
     pageSize: 5,
     serverUrl: 'https://hacker-news.firebaseio.com/v0',
+  }
+
+  config.wechat_config = {
+
   }
 
   config.mysql = {
@@ -29,14 +34,26 @@ module.exports = appInfo => {
     // 用户名
     user: 'root',
     // 密码
-    password: '123456',
+    password: 'admin',
     // 数据库名
-    database: 'python_coding',
+    database: 'egg',
   },
   // 是否加载到 app 上，默认开启
   app: true,
   // 是否加载到 agent 上，默认关闭
   agent: false,
   }
+
+  //sequelize 配置
+  config.sequelize = {
+    dialect: 'mysql', // support: mysql, mariadb, postgres, mssql
+    database: 'egg',
+    host: 'localhost',
+    port: '3306',
+    username: 'root',
+    password: 'admin',
+  }
+
+
   return config;
 };
