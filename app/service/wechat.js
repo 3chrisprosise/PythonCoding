@@ -22,7 +22,7 @@ class WechatService extends Service {
     let array = [token, timestamp, nonce];
     let str = array.sort().join('');
     let sha1Code = Crypto.createHash("sha1");
-    let code = sha1Code.update(str, 'utf-8').digest("hex"); 
+    let code = sha1Code.update(str).digest("hex"); 
     return code === signature ? echostr : "err"
   }
 
