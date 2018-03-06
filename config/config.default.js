@@ -30,7 +30,7 @@ module.exports = appInfo => {
     // 单数据库信息配置
   client: {
     // host
-    host: '10.55.91.107',
+    host: 'localhost',
     // 端口号
     port: '3306',
     // 用户名
@@ -50,7 +50,7 @@ module.exports = appInfo => {
   config.sequelize = {
     dialect: 'mysql', // support: mysql, mariadb, postgres, mssql
     database: 'egg',
-    host: '10.55.91.107',
+    host: 'localhost',
     port: '3306',
     username: 'root',
     password: '123456',
