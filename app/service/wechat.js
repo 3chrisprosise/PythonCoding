@@ -23,7 +23,6 @@ class WechatService extends Service {
     let str = array.sort().join('');
     let sha1Code = Crypto.createHash("sha1");
     let code = sha1Code.update(str, 'utf-8').digest("hex"); 
-    console.log('varidate success!!!!!!!!!!!!!!!!')
     return code === signature ? echostr : "err"
   }
 
