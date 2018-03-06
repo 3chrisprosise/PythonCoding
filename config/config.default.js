@@ -21,20 +21,22 @@ module.exports = appInfo => {
   }
 
   config.wechat_config = {
-
+    token: 'wx84585f075bb7a794',
+    appid: '',
+    encodingAESKey: ''
   }
 
   config.mysql = {
     // 单数据库信息配置
   client: {
     // host
-    host: 'localhost',
+    host: '10.55.91.107',
     // 端口号
     port: '3306',
     // 用户名
     user: 'root',
     // 密码
-    password: 'admin',
+    password: '123456',
     // 数据库名
     database: 'egg',
   },
@@ -48,10 +50,10 @@ module.exports = appInfo => {
   config.sequelize = {
     dialect: 'mysql', // support: mysql, mariadb, postgres, mssql
     database: 'egg',
-    host: 'localhost',
+    host: '10.55.91.107',
     port: '3306',
     username: 'root',
-    password: 'admin',
+    password: '123456',
   }
 
 

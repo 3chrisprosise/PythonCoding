@@ -1,0 +1,314 @@
+{
+  "keys": "c:\\Users\\ChrisProsise\\Desktop\\公众号\\PythonCoding\\config\\config.local.js",
+  "middleware": "c:\\Users\\ChrisProsise\\Desktop\\公众号\\PythonCoding\\config\\config.local.js",
+  "view": {
+    "defaultViewEngine": "c:\\Users\\ChrisProsise\\Desktop\\公众号\\PythonCoding\\config\\config.local.js",
+    "mapping": {
+      ".tpl": "c:\\Users\\ChrisProsise\\Desktop\\公众号\\PythonCoding\\config\\config.local.js"
+    },
+    "root": "c:\\Users\\ChrisProsise\\Desktop\\公众号\\PythonCoding\\node_modules\\egg-view\\config\\config.default.js",
+    "cache": "c:\\Users\\ChrisProsise\\Desktop\\公众号\\PythonCoding\\node_modules\\egg-view\\config\\config.local.js",
+    "defaultExtension": "c:\\Users\\ChrisProsise\\Desktop\\公众号\\PythonCoding\\node_modules\\egg-view\\config\\config.default.js"
+  },
+  "news": {
+    "pageSize": "c:\\Users\\ChrisProsise\\Desktop\\公众号\\PythonCoding\\config\\config.local.js",
+    "serverUrl": "c:\\Users\\ChrisProsise\\Desktop\\公众号\\PythonCoding\\config\\config.local.js"
+  },
+  "wechat_config": {
+    "token": "c:\\Users\\ChrisProsise\\Desktop\\公众号\\PythonCoding\\config\\config.default.js",
+    "appid": "c:\\Users\\ChrisProsise\\Desktop\\公众号\\PythonCoding\\config\\config.default.js",
+    "encodingAESKey": "c:\\Users\\ChrisProsise\\Desktop\\公众号\\PythonCoding\\config\\config.default.js"
+  },
+  "mysql": {
+    "client": {
+      "host": "c:\\Users\\ChrisProsise\\Desktop\\公众号\\PythonCoding\\config\\config.default.js",
+      "port": "c:\\Users\\ChrisProsise\\Desktop\\公众号\\PythonCoding\\config\\config.default.js",
+      "user": "c:\\Users\\ChrisProsise\\Desktop\\公众号\\PythonCoding\\config\\config.default.js",
+      "password": "c:\\Users\\ChrisProsise\\Desktop\\公众号\\PythonCoding\\config\\config.default.js",
+      "database": "c:\\Users\\ChrisProsise\\Desktop\\公众号\\PythonCoding\\config\\config.default.js"
+    },
+    "app": "c:\\Users\\ChrisProsise\\Desktop\\公众号\\PythonCoding\\config\\config.default.js",
+    "agent": "c:\\Users\\ChrisProsise\\Desktop\\公众号\\PythonCoding\\config\\config.default.js",
+    "default": {
+      "database": "c:\\Users\\ChrisProsise\\Desktop\\公众号\\PythonCoding\\node_modules\\egg-mysql\\config\\config.default.js",
+      "connectionLimit": "c:\\Users\\ChrisProsise\\Desktop\\公众号\\PythonCoding\\node_modules\\egg-mysql\\config\\config.default.js"
+    }
+  },
+  "sequelize": {
+    "dialect": "c:\\Users\\ChrisProsise\\Desktop\\公众号\\PythonCoding\\config\\config.default.js",
+    "database": "c:\\Users\\ChrisProsise\\Desktop\\公众号\\PythonCoding\\config\\config.default.js",
+    "host": "c:\\Users\\ChrisProsise\\Desktop\\公众号\\PythonCoding\\config\\config.default.js",
+    "port": "c:\\Users\\ChrisProsise\\Desktop\\公众号\\PythonCoding\\config\\config.default.js",
+    "username": "c:\\Users\\ChrisProsise\\Desktop\\公众号\\PythonCoding\\config\\config.default.js",
+    "password": "c:\\Users\\ChrisProsise\\Desktop\\公众号\\PythonCoding\\config\\config.default.js"
+  },
+  "robot": {
+    "ua": "c:\\Users\\ChrisProsise\\Desktop\\公众号\\PythonCoding\\config\\config.local.js"
+  },
+  "session": {
+    "maxAge": "c:\\Users\\ChrisProsise\\Desktop\\公众号\\PythonCoding\\node_modules\\egg-session\\config\\config.default.js",
+    "key": "c:\\Users\\ChrisProsise\\Desktop\\公众号\\PythonCoding\\node_modules\\egg-session\\config\\config.default.js",
+    "httpOnly": "c:\\Users\\ChrisProsise\\Desktop\\公众号\\PythonCoding\\node_modules\\egg-session\\config\\config.default.js",
+    "encrypt": "c:\\Users\\ChrisProsise\\Desktop\\公众号\\PythonCoding\\node_modules\\egg-session\\config\\config.default.js"
+  },
+  "security": {
+    "domainWhiteList": "c:\\Users\\ChrisProsise\\Desktop\\公众号\\PythonCoding\\node_modules\\egg-security\\config\\config.default.js",
+    "protocolWhiteList": "c:\\Users\\ChrisProsise\\Desktop\\公众号\\PythonCoding\\node_modules\\egg-security\\config\\config.default.js",
+    "defaultMiddleware": "c:\\Users\\ChrisProsise\\Desktop\\公众号\\PythonCoding\\node_modules\\egg-security\\config\\config.default.js",
+    "csrf": {
+      "enable": "c:\\Users\\ChrisProsise\\Desktop\\公众号\\PythonCoding\\node_modules\\egg-security\\config\\config.default.js",
+      "useSession": "c:\\Users\\ChrisProsise\\Desktop\\公众号\\PythonCoding\\node_modules\\egg-security\\config\\config.default.js",
+      "ignoreJSON": "c:\\Users\\ChrisProsise\\Desktop\\公众号\\PythonCoding\\node_modules\\egg-security\\config\\config.default.js",
+      "cookieName": "c:\\Users\\ChrisProsise\\Desktop\\公众号\\PythonCoding\\node_modules\\egg-security\\config\\config.default.js",
+      "sessionName": "c:\\Users\\ChrisProsise\\Desktop\\公众号\\PythonCoding\\node_modules\\egg-security\\config\\config.default.js",
+      "headerName": "c:\\Users\\ChrisProsise\\Desktop\\公众号\\PythonCoding\\node_modules\\egg-security\\config\\config.default.js",
+      "bodyName": "c:\\Users\\ChrisProsise\\Desktop\\公众号\\PythonCoding\\node_modules\\egg-security\\config\\config.default.js",
+      "queryName": "c:\\Users\\ChrisProsise\\Desktop\\公众号\\PythonCoding\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "xframe": {
+      "enable": "c:\\Users\\ChrisProsise\\Desktop\\公众号\\PythonCoding\\node_modules\\egg-security\\config\\config.default.js",
+      "value": "c:\\Users\\ChrisProsise\\Desktop\\公众号\\PythonCoding\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "hsts": {
+      "enable": "c:\\Users\\ChrisProsise\\Desktop\\公众号\\PythonCoding\\node_modules\\egg-security\\config\\config.local.js",
+      "maxAge": "c:\\Users\\ChrisProsise\\Desktop\\公众号\\PythonCoding\\node_modules\\egg-security\\config\\config.default.js",
+      "includeSubdomains": "c:\\Users\\ChrisProsise\\Desktop\\公众号\\PythonCoding\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "dta": {
+      "enable": "c:\\Users\\ChrisProsise\\Desktop\\公众号\\PythonCoding\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "methodnoallow": {
+      "enable": "c:\\Users\\ChrisProsise\\Desktop\\公众号\\PythonCoding\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "noopen": {
+      "enable": "c:\\Users\\ChrisProsise\\Desktop\\公众号\\PythonCoding\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "nosniff": {
+      "enable": "c:\\Users\\ChrisProsise\\Desktop\\公众号\\PythonCoding\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "xssProtection": {
+      "enable": "c:\\Users\\ChrisProsise\\Desktop\\公众号\\PythonCoding\\node_modules\\egg-security\\config\\config.default.js",
+      "value": "c:\\Users\\ChrisProsise\\Desktop\\公众号\\PythonCoding\\node_modules\\egg-security\\config\\config.default.js"
+    },
+    "csp": {
+      "enable": "c:\\Users\\ChrisProsise\\Desktop\\公众号\\PythonCoding\\node_modules\\egg-security\\config\\config.default.js",
+      "policy": "c:\\Users\\ChrisProsise\\Desktop\\公众号\\PythonCoding\\node_modules\\egg-security\\config\\config.default.js"
+    }
+  },
+  "helper": {
+    "shtml": "c:\\Users\\ChrisProsise\\Desktop\\公众号\\PythonCoding\\node_modules\\egg-security\\config\\config.default.js"
+  },
+  "jsonp": {
+    "limit": "c:\\Users\\ChrisProsise\\Desktop\\公众号\\PythonCoding\\node_modules\\egg-jsonp\\config\\config.default.js",
+    "callback": "c:\\Users\\ChrisProsise\\Desktop\\公众号\\PythonCoding\\node_modules\\egg-jsonp\\config\\config.default.js",
+    "csrf": "c:\\Users\\ChrisProsise\\Desktop\\公众号\\PythonCoding\\node_modules\\egg-jsonp\\config\\config.default.js"
+  },
+  "onerror": {
+    "errorPageUrl": "c:\\Users\\ChrisProsise\\Desktop\\公众号\\PythonCoding\\node_modules\\egg-onerror\\config\\config.default.js",
+    "appErrorFilter": "c:\\Users\\ChrisProsise\\Desktop\\公众号\\PythonCoding\\node_modules\\egg-onerror\\config\\config.default.js"
+  },
+  "i18n": {
+    "defaultLocale": "c:\\Users\\ChrisProsise\\Desktop\\公众号\\PythonCoding\\node_modules\\egg-i18n\\config\\config.default.js",
+    "dirs": "c:\\Users\\ChrisProsise\\Desktop\\公众号\\PythonCoding\\node_modules\\egg-i18n\\config\\config.default.js",
+    "queryField": "c:\\Users\\ChrisProsise\\Desktop\\公众号\\PythonCoding\\node_modules\\egg-i18n\\config\\config.default.js",
+    "cookieField": "c:\\Users\\ChrisProsise\\Desktop\\公众号\\PythonCoding\\node_modules\\egg-i18n\\config\\config.default.js",
+    "cookieMaxAge": "c:\\Users\\ChrisProsise\\Desktop\\公众号\\PythonCoding\\node_modules\\egg-i18n\\config\\config.default.js"
+  },
+  "watcher": {
+    "type": "c:\\Users\\ChrisProsise\\Desktop\\公众号\\PythonCoding\\node_modules\\egg-watcher\\config\\config.local.js",
+    "eventSources": {
+      "default": "c:\\Users\\ChrisProsise\\Desktop\\公众号\\PythonCoding\\node_modules\\egg-watcher\\config\\config.default.js",
+      "development": "c:\\Users\\ChrisProsise\\Desktop\\公众号\\PythonCoding\\node_modules\\egg-watcher\\config\\config.default.js"
+    }
+  },
+  "multipart": {
+    "autoFields": "c:\\Users\\ChrisProsise\\Desktop\\公众号\\PythonCoding\\node_modules\\egg-multipart\\config\\config.default.js",
+    "defaultCharset": "c:\\Users\\ChrisProsise\\Desktop\\公众号\\PythonCoding\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fieldNameSize": "c:\\Users\\ChrisProsise\\Desktop\\公众号\\PythonCoding\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fieldSize": "c:\\Users\\ChrisProsise\\Desktop\\公众号\\PythonCoding\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fields": "c:\\Users\\ChrisProsise\\Desktop\\公众号\\PythonCoding\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fileSize": "c:\\Users\\ChrisProsise\\Desktop\\公众号\\PythonCoding\\node_modules\\egg-multipart\\config\\config.default.js",
+    "files": "c:\\Users\\ChrisProsise\\Desktop\\公众号\\PythonCoding\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fileExtensions": "c:\\Users\\ChrisProsise\\Desktop\\公众号\\PythonCoding\\node_modules\\egg-multipart\\config\\config.default.js",
+    "whitelist": "c:\\Users\\ChrisProsise\\Desktop\\公众号\\PythonCoding\\node_modules\\egg-multipart\\config\\config.default.js"
+  },
+  "development": {
+    "watchDirs": "c:\\Users\\ChrisProsise\\Desktop\\公众号\\PythonCoding\\node_modules\\egg-development\\config\\config.default.js",
+    "ignoreDirs": "c:\\Users\\ChrisProsise\\Desktop\\公众号\\PythonCoding\\node_modules\\egg-development\\config\\config.default.js",
+    "fastReady": "c:\\Users\\ChrisProsise\\Desktop\\公众号\\PythonCoding\\node_modules\\egg-development\\config\\config.default.js",
+    "reloadOnDebug": "c:\\Users\\ChrisProsise\\Desktop\\公众号\\PythonCoding\\node_modules\\egg-development\\config\\config.default.js",
+    "overrideDefault": "c:\\Users\\ChrisProsise\\Desktop\\公众号\\PythonCoding\\node_modules\\egg-development\\config\\config.default.js"
+  },
+  "customLogger": {
+    "scheduleLogger": {
+      "consoleLevel": "c:\\Users\\ChrisProsise\\Desktop\\公众号\\PythonCoding\\node_modules\\egg-schedule\\config\\config.default.js",
+      "file": "c:\\Users\\ChrisProsise\\Desktop\\公众号\\PythonCoding\\node_modules\\egg-schedule\\config\\config.default.js"
+    }
+  },
+  "logrotator": {
+    "filesRotateByHour": "c:\\Users\\ChrisProsise\\Desktop\\公众号\\PythonCoding\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "hourDelimiter": "c:\\Users\\ChrisProsise\\Desktop\\公众号\\PythonCoding\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "filesRotateBySize": "c:\\Users\\ChrisProsise\\Desktop\\公众号\\PythonCoding\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "maxFileSize": "c:\\Users\\ChrisProsise\\Desktop\\公众号\\PythonCoding\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "maxFiles": "c:\\Users\\ChrisProsise\\Desktop\\公众号\\PythonCoding\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "rotateDuration": "c:\\Users\\ChrisProsise\\Desktop\\公众号\\PythonCoding\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "maxDays": "c:\\Users\\ChrisProsise\\Desktop\\公众号\\PythonCoding\\node_modules\\egg-logrotator\\config\\config.default.js"
+  },
+  "static": {
+    "prefix": "c:\\Users\\ChrisProsise\\Desktop\\公众号\\PythonCoding\\node_modules\\egg-static\\config\\config.default.js",
+    "dir": "c:\\Users\\ChrisProsise\\Desktop\\公众号\\PythonCoding\\node_modules\\egg-static\\config\\config.default.js",
+    "dynamic": "c:\\Users\\ChrisProsise\\Desktop\\公众号\\PythonCoding\\node_modules\\egg-static\\config\\config.default.js",
+    "preload": "c:\\Users\\ChrisProsise\\Desktop\\公众号\\PythonCoding\\node_modules\\egg-static\\config\\config.default.js",
+    "buffer": "c:\\Users\\ChrisProsise\\Desktop\\公众号\\PythonCoding\\node_modules\\egg-static\\config\\config.default.js",
+    "maxFiles": "c:\\Users\\ChrisProsise\\Desktop\\公众号\\PythonCoding\\node_modules\\egg-static\\config\\config.default.js"
+  },
+  "nunjucks": {
+    "autoescape": "c:\\Users\\ChrisProsise\\Desktop\\公众号\\PythonCoding\\node_modules\\egg-view-nunjucks\\config\\config.default.js",
+    "throwOnUndefined": "c:\\Users\\ChrisProsise\\Desktop\\公众号\\PythonCoding\\node_modules\\egg-view-nunjucks\\config\\config.default.js",
+    "trimBlocks": "c:\\Users\\ChrisProsise\\Desktop\\公众号\\PythonCoding\\node_modules\\egg-view-nunjucks\\config\\config.default.js",
+    "lstripBlocks": "c:\\Users\\ChrisProsise\\Desktop\\公众号\\PythonCoding\\node_modules\\egg-view-nunjucks\\config\\config.default.js",
+    "cache": "c:\\Users\\ChrisProsise\\Desktop\\公众号\\PythonCoding\\node_modules\\egg-view-nunjucks\\config\\config.local.js"
+  },
+  "env": "c:\\Users\\ChrisProsise\\Desktop\\公众号\\PythonCoding\\node_modules\\egg\\config\\config.default.js",
+  "name": "c:\\Users\\ChrisProsise\\Desktop\\公众号\\PythonCoding\\node_modules\\egg\\config\\config.default.js",
+  "proxy": "c:\\Users\\ChrisProsise\\Desktop\\公众号\\PythonCoding\\node_modules\\egg\\config\\config.default.js",
+  "protocolHeaders": "c:\\Users\\ChrisProsise\\Desktop\\公众号\\PythonCoding\\node_modules\\egg\\config\\config.default.js",
+  "ipHeaders": "c:\\Users\\ChrisProsise\\Desktop\\公众号\\PythonCoding\\node_modules\\egg\\config\\config.default.js",
+  "hostHeaders": "c:\\Users\\ChrisProsise\\Desktop\\公众号\\PythonCoding\\node_modules\\egg\\config\\config.default.js",
+  "pkg": {
+    "name": "c:\\Users\\ChrisProsise\\Desktop\\公众号\\PythonCoding\\node_modules\\egg\\config\\config.default.js",
+    "version": "c:\\Users\\ChrisProsise\\Desktop\\公众号\\PythonCoding\\node_modules\\egg\\config\\config.default.js",
+    "description": "c:\\Users\\ChrisProsise\\Desktop\\公众号\\PythonCoding\\node_modules\\egg\\config\\config.default.js",
+    "private": "c:\\Users\\ChrisProsise\\Desktop\\公众号\\PythonCoding\\node_modules\\egg\\config\\config.default.js",
+    "dependencies": {
+      "egg": "c:\\Users\\ChrisProsise\\Desktop\\公众号\\PythonCoding\\node_modules\\egg\\config\\config.default.js",
+      "egg-graphql": "c:\\Users\\ChrisProsise\\Desktop\\公众号\\PythonCoding\\node_modules\\egg\\config\\config.default.js",
+      "egg-mysql": "c:\\Users\\ChrisProsise\\Desktop\\公众号\\PythonCoding\\node_modules\\egg\\config\\config.default.js",
+      "egg-scripts": "c:\\Users\\ChrisProsise\\Desktop\\公众号\\PythonCoding\\node_modules\\egg\\config\\config.default.js",
+      "egg-sequelize": "c:\\Users\\ChrisProsise\\Desktop\\公众号\\PythonCoding\\node_modules\\egg\\config\\config.default.js",
+      "egg-session": "c:\\Users\\ChrisProsise\\Desktop\\公众号\\PythonCoding\\node_modules\\egg\\config\\config.default.js",
+      "egg-view-nunjucks": "c:\\Users\\ChrisProsise\\Desktop\\公众号\\PythonCoding\\node_modules\\egg\\config\\config.default.js",
+      "moment": "c:\\Users\\ChrisProsise\\Desktop\\公众号\\PythonCoding\\node_modules\\egg\\config\\config.default.js",
+      "mysql2": "c:\\Users\\ChrisProsise\\Desktop\\公众号\\PythonCoding\\node_modules\\egg\\config\\config.default.js"
+    },
+    "devDependencies": {
+      "autod": "c:\\Users\\ChrisProsise\\Desktop\\公众号\\PythonCoding\\node_modules\\egg\\config\\config.default.js",
+      "autod-egg": "c:\\Users\\ChrisProsise\\Desktop\\公众号\\PythonCoding\\node_modules\\egg\\config\\config.default.js",
+      "egg-bin": "c:\\Users\\ChrisProsise\\Desktop\\公众号\\PythonCoding\\node_modules\\egg\\config\\config.default.js",
+      "egg-ci": "c:\\Users\\ChrisProsise\\Desktop\\公众号\\PythonCoding\\node_modules\\egg\\config\\config.default.js",
+      "egg-mock": "c:\\Users\\ChrisProsise\\Desktop\\公众号\\PythonCoding\\node_modules\\egg\\config\\config.default.js",
+      "eslint": "c:\\Users\\ChrisProsise\\Desktop\\公众号\\PythonCoding\\node_modules\\egg\\config\\config.default.js",
+      "eslint-config-egg": "c:\\Users\\ChrisProsise\\Desktop\\公众号\\PythonCoding\\node_modules\\egg\\config\\config.default.js",
+      "webstorm-disable-index": "c:\\Users\\ChrisProsise\\Desktop\\公众号\\PythonCoding\\node_modules\\egg\\config\\config.default.js"
+    },
+    "engines": {
+      "node": "c:\\Users\\ChrisProsise\\Desktop\\公众号\\PythonCoding\\node_modules\\egg\\config\\config.default.js"
+    },
+    "scripts": {
+      "start": "c:\\Users\\ChrisProsise\\Desktop\\公众号\\PythonCoding\\node_modules\\egg\\config\\config.default.js",
+      "stop": "c:\\Users\\ChrisProsise\\Desktop\\公众号\\PythonCoding\\node_modules\\egg\\config\\config.default.js",
+      "dev": "c:\\Users\\ChrisProsise\\Desktop\\公众号\\PythonCoding\\node_modules\\egg\\config\\config.default.js",
+      "debug": "c:\\Users\\ChrisProsise\\Desktop\\公众号\\PythonCoding\\node_modules\\egg\\config\\config.default.js",
+      "test": "c:\\Users\\ChrisProsise\\Desktop\\公众号\\PythonCoding\\node_modules\\egg\\config\\config.default.js",
+      "test-local": "c:\\Users\\ChrisProsise\\Desktop\\公众号\\PythonCoding\\node_modules\\egg\\config\\config.default.js",
+      "cov": "c:\\Users\\ChrisProsise\\Desktop\\公众号\\PythonCoding\\node_modules\\egg\\config\\config.default.js",
+      "lint": "c:\\Users\\ChrisProsise\\Desktop\\公众号\\PythonCoding\\node_modules\\egg\\config\\config.default.js",
+      "ci": "c:\\Users\\ChrisProsise\\Desktop\\公众号\\PythonCoding\\node_modules\\egg\\config\\config.default.js",
+      "autod": "c:\\Users\\ChrisProsise\\Desktop\\公众号\\PythonCoding\\node_modules\\egg\\config\\config.default.js"
+    },
+    "ci": {
+      "version": "c:\\Users\\ChrisProsise\\Desktop\\公众号\\PythonCoding\\node_modules\\egg\\config\\config.default.js"
+    },
+    "repository": {
+      "type": "c:\\Users\\ChrisProsise\\Desktop\\公众号\\PythonCoding\\node_modules\\egg\\config\\config.default.js",
+      "url": "c:\\Users\\ChrisProsise\\Desktop\\公众号\\PythonCoding\\node_modules\\egg\\config\\config.default.js"
+    },
+    "author": "c:\\Users\\ChrisProsise\\Desktop\\公众号\\PythonCoding\\node_modules\\egg\\config\\config.default.js",
+    "license": "c:\\Users\\ChrisProsise\\Desktop\\公众号\\PythonCoding\\node_modules\\egg\\config\\config.default.js"
+  },
+  "baseDir": "c:\\Users\\ChrisProsise\\Desktop\\公众号\\PythonCoding\\node_modules\\egg\\config\\config.default.js",
+  "HOME": "c:\\Users\\ChrisProsise\\Desktop\\公众号\\PythonCoding\\node_modules\\egg\\config\\config.default.js",
+  "rundir": "c:\\Users\\ChrisProsise\\Desktop\\公众号\\PythonCoding\\node_modules\\egg\\config\\config.default.js",
+  "dump": {
+    "ignore": "c:\\Users\\ChrisProsise\\Desktop\\公众号\\PythonCoding\\node_modules\\egg\\config\\config.default.js"
+  },
+  "confusedConfigurations": {
+    "bodyparser": "c:\\Users\\ChrisProsise\\Desktop\\公众号\\PythonCoding\\node_modules\\egg\\config\\config.default.js",
+    "notFound": "c:\\Users\\ChrisProsise\\Desktop\\公众号\\PythonCoding\\node_modules\\egg\\config\\config.default.js",
+    "sitefile": "c:\\Users\\ChrisProsise\\Desktop\\公众号\\PythonCoding\\node_modules\\egg\\config\\config.default.js",
+    "middlewares": "c:\\Users\\ChrisProsise\\Desktop\\公众号\\PythonCoding\\node_modules\\egg\\config\\config.default.js",
+    "httpClient": "c:\\Users\\ChrisProsise\\Desktop\\公众号\\PythonCoding\\node_modules\\egg\\config\\config.default.js"
+  },
+  "notfound": {
+    "pageUrl": "c:\\Users\\ChrisProsise\\Desktop\\公众号\\PythonCoding\\node_modules\\egg\\config\\config.default.js"
+  },
+  "siteFile": {
+    "/favicon.ico": "c:\\Users\\ChrisProsise\\Desktop\\公众号\\PythonCoding\\node_modules\\egg\\config\\config.default.js"
+  },
+  "bodyParser": {
+    "enable": "c:\\Users\\ChrisProsise\\Desktop\\公众号\\PythonCoding\\node_modules\\egg\\config\\config.default.js",
+    "encoding": "c:\\Users\\ChrisProsise\\Desktop\\公众号\\PythonCoding\\node_modules\\egg\\config\\config.default.js",
+    "formLimit": "c:\\Users\\ChrisProsise\\Desktop\\公众号\\PythonCoding\\node_modules\\egg\\config\\config.default.js",
+    "jsonLimit": "c:\\Users\\ChrisProsise\\Desktop\\公众号\\PythonCoding\\node_modules\\egg\\config\\config.default.js",
+    "strict": "c:\\Users\\ChrisProsise\\Desktop\\公众号\\PythonCoding\\node_modules\\egg\\config\\config.default.js",
+    "queryString": {
+      "arrayLimit": "c:\\Users\\ChrisProsise\\Desktop\\公众号\\PythonCoding\\node_modules\\egg\\config\\config.default.js",
+      "depth": "c:\\Users\\ChrisProsise\\Desktop\\公众号\\PythonCoding\\node_modules\\egg\\config\\config.default.js",
+      "parameterLimit": "c:\\Users\\ChrisProsise\\Desktop\\公众号\\PythonCoding\\node_modules\\egg\\config\\config.default.js"
+    }
+  },
+  "logger": {
+    "dir": "c:\\Users\\ChrisProsise\\Desktop\\公众号\\PythonCoding\\node_modules\\egg\\config\\config.default.js",
+    "encoding": "c:\\Users\\ChrisProsise\\Desktop\\公众号\\PythonCoding\\node_modules\\egg\\config\\config.default.js",
+    "env": "c:\\Users\\ChrisProsise\\Desktop\\公众号\\PythonCoding\\node_modules\\egg\\config\\config.default.js",
+    "level": "c:\\Users\\ChrisProsise\\Desktop\\公众号\\PythonCoding\\node_modules\\egg\\config\\config.default.js",
+    "consoleLevel": "c:\\Users\\ChrisProsise\\Desktop\\公众号\\PythonCoding\\node_modules\\egg\\config\\config.default.js",
+    "disableConsoleAfterReady": "c:\\Users\\ChrisProsise\\Desktop\\公众号\\PythonCoding\\node_modules\\egg\\config\\config.default.js",
+    "outputJSON": "c:\\Users\\ChrisProsise\\Desktop\\公众号\\PythonCoding\\node_modules\\egg\\config\\config.default.js",
+    "buffer": "c:\\Users\\ChrisProsise\\Desktop\\公众号\\PythonCoding\\node_modules\\egg\\config\\config.default.js",
+    "appLogName": "c:\\Users\\ChrisProsise\\Desktop\\公众号\\PythonCoding\\node_modules\\egg\\config\\config.default.js",
+    "coreLogName": "c:\\Users\\ChrisProsise\\Desktop\\公众号\\PythonCoding\\node_modules\\egg\\config\\config.default.js",
+    "agentLogName": "c:\\Users\\ChrisProsise\\Desktop\\公众号\\PythonCoding\\node_modules\\egg\\config\\config.default.js",
+    "errorLogName": "c:\\Users\\ChrisProsise\\Desktop\\公众号\\PythonCoding\\node_modules\\egg\\config\\config.default.js",
+    "coreLogger": {
+      "consoleLevel": "c:\\Users\\ChrisProsise\\Desktop\\公众号\\PythonCoding\\node_modules\\egg\\config\\config.local.js"
+    },
+    "allowDebugAtProd": "c:\\Users\\ChrisProsise\\Desktop\\公众号\\PythonCoding\\node_modules\\egg\\config\\config.default.js"
+  },
+  "httpclient": {
+    "enableDNSCache": "c:\\Users\\ChrisProsise\\Desktop\\公众号\\PythonCoding\\node_modules\\egg\\config\\config.default.js",
+    "dnsCacheMaxLength": "c:\\Users\\ChrisProsise\\Desktop\\公众号\\PythonCoding\\node_modules\\egg\\config\\config.default.js",
+    "dnsCacheMaxAge": "c:\\Users\\ChrisProsise\\Desktop\\公众号\\PythonCoding\\node_modules\\egg\\config\\config.default.js",
+    "request": {
+      "timeout": "c:\\Users\\ChrisProsise\\Desktop\\公众号\\PythonCoding\\node_modules\\egg\\config\\config.default.js"
+    },
+    "httpAgent": {
+      "keepAlive": "c:\\Users\\ChrisProsise\\Desktop\\公众号\\PythonCoding\\node_modules\\egg\\config\\config.default.js",
+      "freeSocketKeepAliveTimeout": "c:\\Users\\ChrisProsise\\Desktop\\公众号\\PythonCoding\\node_modules\\egg\\config\\config.default.js",
+      "maxSockets": "c:\\Users\\ChrisProsise\\Desktop\\公众号\\PythonCoding\\node_modules\\egg\\config\\config.default.js",
+      "maxFreeSockets": "c:\\Users\\ChrisProsise\\Desktop\\公众号\\PythonCoding\\node_modules\\egg\\config\\config.default.js"
+    },
+    "httpsAgent": {
+      "keepAlive": "c:\\Users\\ChrisProsise\\Desktop\\公众号\\PythonCoding\\node_modules\\egg\\config\\config.default.js",
+      "freeSocketKeepAliveTimeout": "c:\\Users\\ChrisProsise\\Desktop\\公众号\\PythonCoding\\node_modules\\egg\\config\\config.default.js",
+      "maxSockets": "c:\\Users\\ChrisProsise\\Desktop\\公众号\\PythonCoding\\node_modules\\egg\\config\\config.default.js",
+      "maxFreeSockets": "c:\\Users\\ChrisProsise\\Desktop\\公众号\\PythonCoding\\node_modules\\egg\\config\\config.default.js"
+    }
+  },
+  "meta": {
+    "enable": "c:\\Users\\ChrisProsise\\Desktop\\公众号\\PythonCoding\\node_modules\\egg\\config\\config.default.js",
+    "logging": "c:\\Users\\ChrisProsise\\Desktop\\公众号\\PythonCoding\\node_modules\\egg\\config\\config.default.js"
+  },
+  "coreMiddleware": "c:\\Users\\ChrisProsise\\Desktop\\公众号\\PythonCoding\\node_modules\\egg\\config\\config.default.js",
+  "workerStartTimeout": "c:\\Users\\ChrisProsise\\Desktop\\公众号\\PythonCoding\\node_modules\\egg\\config\\config.default.js",
+  "cluster": {
+    "listen": {
+      "path": "c:\\Users\\ChrisProsise\\Desktop\\公众号\\PythonCoding\\node_modules\\egg\\config\\config.default.js",
+      "port": "c:\\Users\\ChrisProsise\\Desktop\\公众号\\PythonCoding\\node_modules\\egg\\config\\config.default.js",
+      "hostname": "c:\\Users\\ChrisProsise\\Desktop\\公众号\\PythonCoding\\node_modules\\egg\\config\\config.default.js"
+    }
+  },
+  "clusterClient": {
+    "responseTimeout": "c:\\Users\\ChrisProsise\\Desktop\\公众号\\PythonCoding\\node_modules\\egg\\config\\config.default.js"
+  }
+}

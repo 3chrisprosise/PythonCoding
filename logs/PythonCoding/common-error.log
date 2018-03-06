@@ -1,0 +1,30 @@
+2018-03-05 19:41:47,668 ERROR 14288 nodejs.unhandledExceptionError: read ECONNRESET
+    at _errnoException (util.js:1031:13)
+    at TCP.onread (net.js:619:25)
+errno: 'ECONNRESET'
+code: 'ECONNRESET'
+syscall: 'read'
+name: 'unhandledExceptionError'
+pid: 14288
+hostname: ChrisProsise
+
+2018-03-05 20:40:57,197 ERROR 12896 nodejs.unhandledExceptionError: read ECONNRESET
+    at _errnoException (util.js:1031:13)
+    at TCP.onread (net.js:619:25)
+errno: 'ECONNRESET'
+code: 'ECONNRESET'
+syscall: 'read'
+name: 'unhandledExceptionError'
+pid: 12896
+hostname: ChrisProsise
+
+2018-03-05 20:43:56,717 ERROR 12896 nodejs.unhandledExceptionError: read ECONNRESET
+    at _errnoException (util.js:1031:13)
+    at TCP.onread (net.js:619:25)
+errno: 'ECONNRESET'
+code: 'ECONNRESET'
+syscall: 'read'
+name: 'unhandledExceptionError'
+pid: 12896
+hostname: ChrisProsise
+
