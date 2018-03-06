@@ -19,7 +19,7 @@ class WechatService extends Service {
    * @param { str } echostr 随机字符串
    */
   async varidate(token, signature, timestamp, nonce, echostr){
-    let array = new Array(token, timestamp, nonce);
+    let array = [token, timestamp, nonce];
     let str = array.sort().join('');
     let sha1Code = Crypto.createHash("sha1");
     let code = sha1Code.update(str, 'utf-8').digest("hex"); 
