@@ -2,7 +2,7 @@
 
 const Service = require('egg').Service;
 const Crypto = require('crypto');
-
+const Sha1 = require('sha1')
 class WechatService extends Service {
 
   constructor(ctx){
@@ -21,8 +21,9 @@ class WechatService extends Service {
   async varidate(token, signature, timestamp, nonce, echostr){
     let array = [token, timestamp, nonce];
     let str = array.sort().join('');
-    let sha1Code = Crypto.createHash("sha1");
-    let code = sha1Code.update(str).digest("hex");
+    // let sha1Code = Crypto.createHash("sha1");
+    // let code = sha1Code.update(str).digest("hex");
+    let code = Sha1(str)
     console.log(code)
     console.log(signature) 
     return code === signature ? echostr : "err"
