@@ -8,7 +8,7 @@ class WechatController extends Controller {
   }
 
   async varidate(){
-    let token = this.config.wechat_config_token;
+    let token = this.app.config.wechat_config_token;
     let signature = this.ctx.query.signature;
     let timestamp = this.ctx.query.timestamp;
     let nonce = this.ctx.query.nonce;
