@@ -13,6 +13,12 @@ class WechatController extends Controller {
     let timestamp = this.ctx.query.timestamp;
     let nonce = this.ctx.query.nonce;
     let echostr = this.ctx.query.echostr;
+    console.log(
+      'token: ',token, 
+      'signature: ', signature,
+      'timestamp: ', timestamp,
+      'nonce: ', nonce 
+    )
     let result = await this.ctx.service.wechat.varidate(
       token,
       signature,
