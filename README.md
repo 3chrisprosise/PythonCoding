@@ -1,6 +1,6 @@
 # PythonCoding
 
-微信公众
+微信公众号开发
 
 ## QuickStart
 

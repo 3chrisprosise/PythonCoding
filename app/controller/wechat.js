@@ -9,10 +9,10 @@ class WechatController extends Controller {
 
   async varidate(){
     let token = this.config.wechat_config_token;
-    let signature = this.ctx.request.signature;
-    let timestamp = this.ctx.request.timestamp;
-    let nonce = this.ctx.request.echostr;
-
+    let signature = this.ctx.query.signature;
+    let timestamp = this.ctx.query.timestamp;
+    let nonce = this.ctx.query.nonce;
+    let echostr = this.ctx.query.echostr;
     this.ctx.body = await this.ctx.service.wechat.varidate(
       token,
       signature,
