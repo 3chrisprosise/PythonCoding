@@ -1,6 +1,6 @@
 'use strict'
 const Controller = require('egg').Controller;
-const crypto = require('crypto');
+
 
 class WechatController extends Controller {
   constructor(ctx){
