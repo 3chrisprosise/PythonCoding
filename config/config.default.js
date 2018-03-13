@@ -18,7 +18,7 @@ module.exports = appInfo => {
 
   config.wechat_config = {
     token: 'wx84585f075bb7a794',
-    appid: 'wx7999f9177654f5d4',
+    appid: 'wx84585f075bb7a794',
     encodingAESKey: '',
     appSecret: '995d8f78879302e1fe5d8ec0cd5c91c6',
     urlPrefix: 'https://api.weixin.qq.com/cgi-bin/'
