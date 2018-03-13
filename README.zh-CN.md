@@ -37,3 +37,16 @@ $ npm stop
 
 
 [egg]: https://eggjs.org
+
+### 预计使用技术及类库
+
+- mongoose
+- sequelize
+- 需要支持两种数据库无缝切换
+- graphql
+- restfulapi
+- 需要支持两种api无缝切换
+- redis 缓存增加相应速度
+- node basic api 测试 node 基础 api 使用
+- 顺带学习下 vim 的完整使用
+### node不死，维护不止 node never die ^_^

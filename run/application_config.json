@@ -209,11 +209,12 @@
         "egg": "^2.2.1",
         "egg-graphql": "^2.1.0",
         "egg-mysql": "^3.0.0",
+        "egg-redis": "^2.0.0",
         "egg-scripts": "^2.5.0",
         "egg-sequelize": "^3.1.2",
         "egg-session": "^3.1.0",
         "egg-view-nunjucks": "^2.1.6",
-        "moment": "^2.20.1",
+        "moment": "^2.21.0",
         "mysql2": "^1.5.2"
       },
       "devDependencies": {
@@ -232,7 +233,7 @@
       "scripts": {
         "start": "egg-scripts start --daemon --title=egg-server-PythonCoding",
         "stop": "egg-scripts stop --title=egg-server-PythonCoding",
-        "dev": "egg-bin dev",
+        "dev": "egg-bin dev --port 3000",
         "debug": "egg-bin debug",
         "test": "npm run lint -- --fix && npm run test-local",
         "test-local": "egg-bin test",
@@ -355,8 +356,34 @@
     },
     "wechat_config": {
       "token": "wx84585f075bb7a794",
-      "appid": "",
-      "encodingAESKey": ""
+      "appid": "wx7999f9177654f5d4",
+      "encodingAESKey": "",
+      "appSecret": "<String len: 32>",
+      "urlPrefix": "https://api.weixin.qq.com/cgi-bin/"
+    },
+    "wechat_menu": {
+      "button": [
+        {
+          "name": "医疗服务",
+          "type": "view",
+          "url": "http://open.weixin.qq.com/connect/oauth2/authorize?appid=wx240b3f1acafff619&redirect_uri=http://wx.tsmtkj.com/wx/index&response_type=code&scope=snsapi_base&state=ok&connect_redirect=1#wechat_redirect"
+        },
+        {
+          "name": "信息查询",
+          "sub_button": [
+            {
+              "name": "我的就诊人",
+              "type": "view",
+              "url": "http://open.weixin.qq.com/connect/oauth2/authorize?appid=wx240b3f1acafff619&redirect_uri=http://wx.tsmtkj.com/wx/visit&response_type=code&scope=snsapi_base&state=ok&connect_redirect=1#wechat_redirect"
+            }
+          ]
+        },
+        {
+          "name": "个人中心",
+          "type": "view",
+          "url": "http://open.weixin.qq.com/connect/oauth2/authorize?appid=wx240b3f1acafff619&redirect_uri=http://wx.tsmtkj.com/wx/mine&response_type=code&scope=snsapi_base&state=ok&connect_redirect=1#wechat_redirect"
+        }
+      ]
     },
     "robot": {
       "ua": [

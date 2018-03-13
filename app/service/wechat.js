@@ -2,7 +2,7 @@
 
 const Service = require('egg').Service;
 const Crypto = require('crypto');
-const Sha1 = require('sha1')
+
 class WechatService extends Service {
 
   constructor(ctx){

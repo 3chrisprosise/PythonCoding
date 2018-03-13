@@ -1333,3 +1333,78 @@
 2018-03-05 20:44:29,029 INFO 12436 [egg-security] compose 7 middlewares into one security middleware
 2018-03-05 20:44:29,116 INFO 12436 [egg-watcher:app] watcher start success
 2018-03-05 20:44:29,122 INFO 12436 [egg-mysql] instance[0] status OK, rds currentTime: Mon Mar 05 2018 20:45:15 GMT+0800 (中国标准时间)
+2018-03-13 15:55:04,801 INFO 3000 [egg:logger] init all loggers with options: {"dir":"c:\\Users\\ChrisProsise\\Desktop\\公众号\\PythonCoding\\logs\\PythonCoding","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"PythonCoding-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-03-13 15:55:04,834 INFO 3000 [egg-schedule]: register schedule c:\Users\ChrisProsise\Desktop\公众号\PythonCoding\node_modules\egg-logrotator\app\schedule\clean_log.js
+2018-03-13 15:55:04,834 INFO 3000 [egg-schedule]: register schedule c:\Users\ChrisProsise\Desktop\公众号\PythonCoding\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2018-03-13 15:55:04,848 INFO 3000 [egg-mysql] connecting root@localhost:3306/egg
+2018-03-13 15:55:05,312 INFO 3000 [egg-static] starting static serve /public/ -> c:\Users\ChrisProsise\Desktop\公众号\PythonCoding\app\public
+2018-03-13 15:55:05,316 INFO 3000 [egg-security] use csrf middleware
+2018-03-13 15:55:05,317 INFO 3000 [egg-security] use methodnoallow middleware
+2018-03-13 15:55:05,318 INFO 3000 [egg-security] use noopen middleware
+2018-03-13 15:55:05,318 INFO 3000 [egg-security] use nosniff middleware
+2018-03-13 15:55:05,319 INFO 3000 [egg-security] use xssProtection middleware
+2018-03-13 15:55:05,319 INFO 3000 [egg-security] use xframe middleware
+2018-03-13 15:55:05,320 INFO 3000 [egg-security] use dta middleware
+2018-03-13 15:55:05,320 INFO 3000 [egg-security] compose 7 middlewares into one security middleware
+2018-03-13 15:55:05,396 INFO 3000 [egg-watcher:app] watcher start success
+2018-03-13 15:55:05,400 INFO 3000 [egg-mysql] instance[0] status OK, rds currentTime: Tue Mar 13 2018 15:55:05 GMT+0800 (中国标准时间)
+2018-03-13 15:56:04,123 INFO 14996 [egg:logger] init all loggers with options: {"dir":"c:\\Users\\ChrisProsise\\Desktop\\公众号\\PythonCoding\\logs\\PythonCoding","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"PythonCoding-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-03-13 15:56:04,154 INFO 14996 [egg-schedule]: register schedule c:\Users\ChrisProsise\Desktop\公众号\PythonCoding\node_modules\egg-logrotator\app\schedule\clean_log.js
+2018-03-13 15:56:04,155 INFO 14996 [egg-schedule]: register schedule c:\Users\ChrisProsise\Desktop\公众号\PythonCoding\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2018-03-13 15:56:04,168 INFO 14996 [egg-mysql] connecting root@10.55.91.107:3306/egg
+2018-03-13 15:56:04,610 INFO 14996 [egg-static] starting static serve /public/ -> c:\Users\ChrisProsise\Desktop\公众号\PythonCoding\app\public
+2018-03-13 15:56:04,614 INFO 14996 [egg-security] use csrf middleware
+2018-03-13 15:56:04,615 INFO 14996 [egg-security] use methodnoallow middleware
+2018-03-13 15:56:04,616 INFO 14996 [egg-security] use noopen middleware
+2018-03-13 15:56:04,617 INFO 14996 [egg-security] use nosniff middleware
+2018-03-13 15:56:04,617 INFO 14996 [egg-security] use xssProtection middleware
+2018-03-13 15:56:04,617 INFO 14996 [egg-security] use xframe middleware
+2018-03-13 15:56:04,618 INFO 14996 [egg-security] use dta middleware
+2018-03-13 15:56:04,618 INFO 14996 [egg-security] compose 7 middlewares into one security middleware
+2018-03-13 15:56:04,728 INFO 14996 [egg-watcher:app] watcher start success
+2018-03-13 15:56:04,733 INFO 14996 [egg-mysql] instance[0] status OK, rds currentTime: Tue Mar 13 2018 15:56:54 GMT+0800 (中国标准时间)
+2018-03-13 15:56:13,408 INFO 8560 [egg:logger] init all loggers with options: {"dir":"c:\\Users\\ChrisProsise\\Desktop\\公众号\\PythonCoding\\logs\\PythonCoding","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"PythonCoding-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-03-13 15:56:13,439 INFO 8560 [egg-schedule]: register schedule c:\Users\ChrisProsise\Desktop\公众号\PythonCoding\node_modules\egg-logrotator\app\schedule\clean_log.js
+2018-03-13 15:56:13,439 INFO 8560 [egg-schedule]: register schedule c:\Users\ChrisProsise\Desktop\公众号\PythonCoding\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2018-03-13 15:56:13,452 INFO 8560 [egg-mysql] connecting root@10.55.91.107:3306/egg
+2018-03-13 15:56:13,991 INFO 8560 [egg-static] starting static serve /public/ -> c:\Users\ChrisProsise\Desktop\公众号\PythonCoding\app\public
+2018-03-13 15:56:13,995 INFO 8560 [egg-security] use csrf middleware
+2018-03-13 15:56:13,996 INFO 8560 [egg-security] use methodnoallow middleware
+2018-03-13 15:56:13,997 INFO 8560 [egg-security] use noopen middleware
+2018-03-13 15:56:13,998 INFO 8560 [egg-security] use nosniff middleware
+2018-03-13 15:56:13,999 INFO 8560 [egg-security] use xssProtection middleware
+2018-03-13 15:56:14,000 INFO 8560 [egg-security] use xframe middleware
+2018-03-13 15:56:14,000 INFO 8560 [egg-security] use dta middleware
+2018-03-13 15:56:14,000 INFO 8560 [egg-security] compose 7 middlewares into one security middleware
+2018-03-13 15:56:14,108 INFO 8560 [egg-watcher:app] watcher start success
+2018-03-13 15:56:14,110 INFO 8560 [egg-mysql] instance[0] status OK, rds currentTime: Tue Mar 13 2018 15:57:04 GMT+0800 (中国标准时间)
+2018-03-13 15:56:15,245 INFO 17732 [egg:logger] init all loggers with options: {"dir":"c:\\Users\\ChrisProsise\\Desktop\\公众号\\PythonCoding\\logs\\PythonCoding","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"PythonCoding-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-03-13 15:56:15,281 INFO 17732 [egg-schedule]: register schedule c:\Users\ChrisProsise\Desktop\公众号\PythonCoding\node_modules\egg-logrotator\app\schedule\clean_log.js
+2018-03-13 15:56:15,281 INFO 17732 [egg-schedule]: register schedule c:\Users\ChrisProsise\Desktop\公众号\PythonCoding\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2018-03-13 15:56:15,296 INFO 17732 [egg-mysql] connecting root@10.55.91.107:3306/egg
+2018-03-13 15:56:15,839 INFO 17732 [egg-static] starting static serve /public/ -> c:\Users\ChrisProsise\Desktop\公众号\PythonCoding\app\public
+2018-03-13 15:56:15,842 INFO 17732 [egg-security] use csrf middleware
+2018-03-13 15:56:15,844 INFO 17732 [egg-security] use methodnoallow middleware
+2018-03-13 15:56:15,844 INFO 17732 [egg-security] use noopen middleware
+2018-03-13 15:56:15,845 INFO 17732 [egg-security] use nosniff middleware
+2018-03-13 15:56:15,846 INFO 17732 [egg-security] use xssProtection middleware
+2018-03-13 15:56:15,846 INFO 17732 [egg-security] use xframe middleware
+2018-03-13 15:56:15,847 INFO 17732 [egg-security] use dta middleware
+2018-03-13 15:56:15,847 INFO 17732 [egg-security] compose 7 middlewares into one security middleware
+2018-03-13 15:56:15,946 INFO 17732 [egg-watcher:app] watcher start success
+2018-03-13 15:56:15,952 INFO 17732 [egg-mysql] instance[0] status OK, rds currentTime: Tue Mar 13 2018 15:57:05 GMT+0800 (中国标准时间)
+2018-03-13 15:57:36,392 INFO 17708 [egg:logger] init all loggers with options: {"dir":"c:\\Users\\ChrisProsise\\Desktop\\公众号\\PythonCoding\\logs\\PythonCoding","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"PythonCoding-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-03-13 15:57:36,427 INFO 17708 [egg-schedule]: register schedule c:\Users\ChrisProsise\Desktop\公众号\PythonCoding\node_modules\egg-logrotator\app\schedule\clean_log.js
+2018-03-13 15:57:36,427 INFO 17708 [egg-schedule]: register schedule c:\Users\ChrisProsise\Desktop\公众号\PythonCoding\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2018-03-13 15:57:36,441 INFO 17708 [egg-mysql] connecting root@10.55.91.107:3306/egg
+2018-03-13 15:57:36,931 INFO 17708 [egg-static] starting static serve /public/ -> c:\Users\ChrisProsise\Desktop\公众号\PythonCoding\app\public
+2018-03-13 15:57:36,938 INFO 17708 [egg-security] use csrf middleware
+2018-03-13 15:57:36,940 INFO 17708 [egg-security] use methodnoallow middleware
+2018-03-13 15:57:36,940 INFO 17708 [egg-security] use noopen middleware
+2018-03-13 15:57:36,943 INFO 17708 [egg-security] use nosniff middleware
+2018-03-13 15:57:36,944 INFO 17708 [egg-security] use xssProtection middleware
+2018-03-13 15:57:36,944 INFO 17708 [egg-security] use xframe middleware
+2018-03-13 15:57:36,945 INFO 17708 [egg-security] use dta middleware
+2018-03-13 15:57:36,945 INFO 17708 [egg-security] compose 7 middlewares into one security middleware
+2018-03-13 15:57:37,035 INFO 17708 [egg-watcher:app] watcher start success
+2018-03-13 15:57:37,040 INFO 17708 [egg-mysql] instance[0] status OK, rds currentTime: Tue Mar 13 2018 15:58:26 GMT+0800 (中国标准时间)

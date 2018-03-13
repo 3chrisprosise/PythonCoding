@@ -17,3 +17,7 @@ exports.sequelize = {
     enable: true,
     package: 'egg-sequelize'
 }
+
+exports.security = {
+    enable: false  // 开发阶段关闭安全模式
+}

@@ -17,7 +17,9 @@
   "wechat_config": {
     "token": "c:\\Users\\ChrisProsise\\Desktop\\公众号\\PythonCoding\\config\\config.default.js",
     "appid": "c:\\Users\\ChrisProsise\\Desktop\\公众号\\PythonCoding\\config\\config.default.js",
-    "encodingAESKey": "c:\\Users\\ChrisProsise\\Desktop\\公众号\\PythonCoding\\config\\config.default.js"
+    "encodingAESKey": "c:\\Users\\ChrisProsise\\Desktop\\公众号\\PythonCoding\\config\\config.default.js",
+    "appSecret": "c:\\Users\\ChrisProsise\\Desktop\\公众号\\PythonCoding\\config\\config.default.js",
+    "urlPrefix": "c:\\Users\\ChrisProsise\\Desktop\\公众号\\PythonCoding\\config\\config.default.js"
   },
   "mysql": {
     "client": {
@@ -41,6 +43,9 @@
     "port": "c:\\Users\\ChrisProsise\\Desktop\\公众号\\PythonCoding\\config\\config.default.js",
     "username": "c:\\Users\\ChrisProsise\\Desktop\\公众号\\PythonCoding\\config\\config.default.js",
     "password": "c:\\Users\\ChrisProsise\\Desktop\\公众号\\PythonCoding\\config\\config.default.js"
+  },
+  "wechat_menu": {
+    "button": "c:\\Users\\ChrisProsise\\Desktop\\公众号\\PythonCoding\\config\\config.default.js"
   },
   "robot": {
     "ua": "c:\\Users\\ChrisProsise\\Desktop\\公众号\\PythonCoding\\config\\config.local.js"
