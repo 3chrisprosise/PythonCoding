@@ -14,6 +14,10 @@ class GetTokenController extends Controller {
     let secret = this.config.wechat_config.appSecret;
     let grant_type = 'client_credential'
     let token = Axios.get(`https://api.weixin.qq.com/cgi-bin/token?grant_type=${grant_type}&appid=${appid}&secret=${secret}`)
+    this.ctx.body = {
+      token: token
+    }
+    return;
   }
 
 }
