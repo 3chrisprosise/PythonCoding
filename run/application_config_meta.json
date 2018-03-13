@@ -10,10 +10,6 @@
     "cache": "c:\\Users\\ChrisProsise\\Desktop\\公众号\\PythonCoding\\node_modules\\egg-view\\config\\config.local.js",
     "defaultExtension": "c:\\Users\\ChrisProsise\\Desktop\\公众号\\PythonCoding\\node_modules\\egg-view\\config\\config.default.js"
   },
-  "news": {
-    "pageSize": "c:\\Users\\ChrisProsise\\Desktop\\公众号\\PythonCoding\\config\\config.local.js",
-    "serverUrl": "c:\\Users\\ChrisProsise\\Desktop\\公众号\\PythonCoding\\config\\config.local.js"
-  },
   "wechat_config": {
     "token": "c:\\Users\\ChrisProsise\\Desktop\\公众号\\PythonCoding\\config\\config.default.js",
     "appid": "c:\\Users\\ChrisProsise\\Desktop\\公众号\\PythonCoding\\config\\config.default.js",
@@ -46,6 +42,10 @@
   },
   "wechat_menu": {
     "button": "c:\\Users\\ChrisProsise\\Desktop\\公众号\\PythonCoding\\config\\config.default.js"
+  },
+  "news": {
+    "pageSize": "c:\\Users\\ChrisProsise\\Desktop\\公众号\\PythonCoding\\config\\config.local.js",
+    "serverUrl": "c:\\Users\\ChrisProsise\\Desktop\\公众号\\PythonCoding\\config\\config.local.js"
   },
   "robot": {
     "ua": "c:\\Users\\ChrisProsise\\Desktop\\公众号\\PythonCoding\\config\\config.local.js"
@@ -186,6 +186,7 @@
     "description": "c:\\Users\\ChrisProsise\\Desktop\\公众号\\PythonCoding\\node_modules\\egg\\config\\config.default.js",
     "private": "c:\\Users\\ChrisProsise\\Desktop\\公众号\\PythonCoding\\node_modules\\egg\\config\\config.default.js",
     "dependencies": {
+      "axios": "c:\\Users\\ChrisProsise\\Desktop\\公众号\\PythonCoding\\node_modules\\egg\\config\\config.default.js",
       "egg": "c:\\Users\\ChrisProsise\\Desktop\\公众号\\PythonCoding\\node_modules\\egg\\config\\config.default.js",
       "egg-graphql": "c:\\Users\\ChrisProsise\\Desktop\\公众号\\PythonCoding\\node_modules\\egg\\config\\config.default.js",
       "egg-mysql": "c:\\Users\\ChrisProsise\\Desktop\\公众号\\PythonCoding\\node_modules\\egg\\config\\config.default.js",

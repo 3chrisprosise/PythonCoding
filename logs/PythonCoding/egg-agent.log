@@ -558,3 +558,27 @@
 2018-03-13 15:58:13,847 INFO 6340 Recieved a change event from eventSource: {"event":"change","path":"c:\\Users\\ChrisProsise\\Desktop\\公众号\\PythonCoding\\app\\service","stat":{"dev":1954839579,"mode":16822,"nlink":1,"uid":0,"gid":0,"rdev":0,"ino":14355223812273338,"size":0,"atimeMs":1520927893845.8416,"mtimeMs":1520927893845.8416,"ctimeMs":1520927893845.8416,"birthtimeMs":1520234260995.6514,"atime":"2018-03-13T07:58:13.846Z","mtime":"2018-03-13T07:58:13.846Z","ctime":"2018-03-13T07:58:13.846Z","birthtime":"2018-03-05T07:17:40.996Z"},"remove":false,"isDirectory":true,"isFile":false}
 2018-03-13 15:58:17,051 WARN 6340 [agent:development] reload worker because c:\Users\ChrisProsise\Desktop\公众号\PythonCoding\app\controller\news.js rename
 2018-03-13 15:58:16,850 INFO 6340 Recieved a change event from eventSource: {"event":"rename","path":"c:\\Users\\ChrisProsise\\Desktop\\公众号\\PythonCoding\\app\\controller\\news.js","remove":true,"isDirectory":false,"isFile":false}
+2018-03-13 16:40:57,849 INFO 1548 [model] [35mSELECT VERSION() as `version`[39m (3ms)
+2018-03-13 16:40:57,859 INFO 1548 [model] [35mSELECT 1+1 AS result[39m (1ms)
+2018-03-13 16:40:57,337 INFO 1548 [egg:logger] init all loggers with options: {"dir":"c:\\Users\\ChrisProsise\\Desktop\\公众号\\PythonCoding\\logs\\PythonCoding","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"PythonCoding-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"agent"}
+2018-03-13 16:40:57,798 INFO 1548 [egg-watcher:agent] watcher start success
+2018-03-13 16:42:55,255 INFO 12476 [model] [35mSELECT VERSION() as `version`[39m (3ms)
+2018-03-13 16:42:55,267 INFO 12476 [model] [35mSELECT 1+1 AS result[39m (1ms)
+2018-03-13 16:42:54,721 INFO 12476 [egg:logger] init all loggers with options: {"dir":"c:\\Users\\ChrisProsise\\Desktop\\公众号\\PythonCoding\\logs\\PythonCoding","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"PythonCoding-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"agent"}
+2018-03-13 16:42:55,205 INFO 12476 [egg-watcher:agent] watcher start success
+2018-03-13 16:43:48,584 INFO 17028 [model] [35mSELECT VERSION() as `version`[39m (4ms)
+2018-03-13 16:43:48,595 INFO 17028 [model] [35mSELECT 1+1 AS result[39m (1ms)
+2018-03-13 16:43:48,074 INFO 17028 [egg:logger] init all loggers with options: {"dir":"c:\\Users\\ChrisProsise\\Desktop\\公众号\\PythonCoding\\logs\\PythonCoding","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"PythonCoding-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"agent"}
+2018-03-13 16:43:48,533 INFO 17028 [egg-watcher:agent] watcher start success
+2018-03-13 16:45:29,688 INFO 12756 [model] [35mSELECT VERSION() as `version`[39m (3ms)
+2018-03-13 16:45:29,700 INFO 12756 [model] [35mSELECT 1+1 AS result[39m (1ms)
+2018-03-13 16:45:29,181 INFO 12756 [egg:logger] init all loggers with options: {"dir":"c:\\Users\\ChrisProsise\\Desktop\\公众号\\PythonCoding\\logs\\PythonCoding","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"PythonCoding-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"agent"}
+2018-03-13 16:45:29,638 INFO 12756 [egg-watcher:agent] watcher start success
+2018-03-13 16:46:22,493 INFO 13232 [model] [35mSELECT VERSION() as `version`[39m (4ms)
+2018-03-13 16:46:22,503 INFO 13232 [model] [35mSELECT 1+1 AS result[39m (1ms)
+2018-03-13 16:46:21,979 INFO 13232 [egg:logger] init all loggers with options: {"dir":"c:\\Users\\ChrisProsise\\Desktop\\公众号\\PythonCoding\\logs\\PythonCoding","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"PythonCoding-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"agent"}
+2018-03-13 16:46:22,442 INFO 13232 [egg-watcher:agent] watcher start success
+2018-03-13 16:47:37,793 INFO 6920 [model] [35mSELECT VERSION() as `version`[39m (3ms)
+2018-03-13 16:47:37,805 INFO 6920 [model] [35mSELECT 1+1 AS result[39m (1ms)
+2018-03-13 16:47:37,291 INFO 6920 [egg:logger] init all loggers with options: {"dir":"c:\\Users\\ChrisProsise\\Desktop\\公众号\\PythonCoding\\logs\\PythonCoding","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"PythonCoding-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"agent"}
+2018-03-13 16:47:37,743 INFO 6920 [egg-watcher:agent] watcher start success

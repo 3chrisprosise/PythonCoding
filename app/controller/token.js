@@ -9,7 +9,7 @@ class GetTokenController extends Controller {
     super(ctx)
   }
 
-  async getToken(){
+  async getoken(){
     let appid = this.config.wechat_config.appid;
     let secret = this.config.wechat_config.appSecret;
     let grant_type = 'client_credential'
@@ -21,3 +21,4 @@ class GetTokenController extends Controller {
   }
 
 }
+module.exports = GetTokenController

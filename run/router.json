@@ -19,8 +19,8 @@
       "GET"
     ],
     "paramNames": [],
-    "path": "/news",
-    "regexp": "/^\\/news(?:\\/(?=$))?$/",
+    "path": "/wechat/varidate",
+    "regexp": "/^\\/wechat\\/varidate(?:\\/(?=$))?$/",
     "stack": [
       "wrappedController"
     ]
@@ -32,8 +32,8 @@
       "GET"
     ],
     "paramNames": [],
-    "path": "/wechat/varidate",
-    "regexp": "/^\\/wechat\\/varidate(?:\\/(?=$))?$/",
+    "path": "/token",
+    "regexp": "/^\\/token(?:\\/(?=$))?$/",
     "stack": [
       "wrappedController"
     ]

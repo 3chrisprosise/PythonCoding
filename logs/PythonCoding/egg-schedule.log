@@ -6,3 +6,5 @@
 2018-03-05 20:30:33,166 INFO 12896 [Timer] c:\Users\ChrisProsise\Desktop\公众号\PythonCoding\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute at 2018-03-06 00:00:01.000
 2018-03-13 15:55:05,431 INFO 6340 [Timer] c:\Users\ChrisProsise\Desktop\公众号\PythonCoding\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute at 2018-03-14 00:00:00.000
 2018-03-13 15:55:05,432 INFO 6340 [Timer] c:\Users\ChrisProsise\Desktop\公众号\PythonCoding\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute at 2018-03-14 00:00:01.000
+2018-03-13 16:47:39,373 INFO 6920 [Timer] c:\Users\ChrisProsise\Desktop\公众号\PythonCoding\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute at 2018-03-14 00:00:00.000
+2018-03-13 16:47:39,374 INFO 6920 [Timer] c:\Users\ChrisProsise\Desktop\公众号\PythonCoding\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute at 2018-03-14 00:00:01.000

@@ -178,7 +178,7 @@
       "app": true,
       "agent": false,
       "client": {
-        "host": "10.55.91.107",
+        "host": "localhost",
         "port": "3306",
         "user": "root",
         "password": "<String len: 6>",
@@ -188,7 +188,7 @@
     "sequelize": {
       "dialect": "mysql",
       "database": "egg",
-      "host": "10.55.91.107",
+      "host": "localhost",
       "port": "3306",
       "username": "root",
       "password": "<String len: 6>"
@@ -206,6 +206,7 @@
       "description": "微信公众",
       "private": true,
       "dependencies": {
+        "axios": "^0.18.0",
         "egg": "^2.2.1",
         "egg-graphql": "^2.1.0",
         "egg-mysql": "^3.0.0",
@@ -350,10 +351,6 @@
       "responseTimeout": 60000
     },
     "middleware": [],
-    "news": {
-      "pageSize": 5,
-      "serverUrl": "https://hacker-news.firebaseio.com/v0"
-    },
     "wechat_config": {
       "token": "wx84585f075bb7a794",
       "appid": "wx7999f9177654f5d4",
@@ -384,6 +381,10 @@
           "url": "http://open.weixin.qq.com/connect/oauth2/authorize?appid=wx240b3f1acafff619&redirect_uri=http://wx.tsmtkj.com/wx/mine&response_type=code&scope=snsapi_base&state=ok&connect_redirect=1#wechat_redirect"
         }
       ]
+    },
+    "news": {
+      "pageSize": 5,
+      "serverUrl": "https://hacker-news.firebaseio.com/v0"
     },
     "robot": {
       "ua": [
@@ -437,7 +438,7 @@
         "session"
       ],
       "env": [],
-      "from": "c:\\Users\\ChrisProsise\\Desktop\\公众号\\PythonCoding\\node_modules\\egg\\config\\plugin.js",
+      "from": "c:\\Users\\ChrisProsise\\Desktop\\公众号\\PythonCoding\\config\\plugin.js",
       "path": "c:\\Users\\ChrisProsise\\Desktop\\公众号\\PythonCoding\\node_modules\\egg-security",
       "version": "2.0.0"
     },
