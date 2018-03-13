@@ -24,6 +24,7 @@ module.exports = app => {
     }
   });
 
-  return User
+  return AccessToken
+  
 
 }
