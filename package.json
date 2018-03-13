@@ -4,6 +4,7 @@
   "description": "微信公众",
   "private": true,
   "dependencies": {
+    "axios": "^0.18.0",
     "egg": "^2.2.1",
     "egg-graphql": "^2.1.0",
     "egg-mysql": "^3.0.0",
