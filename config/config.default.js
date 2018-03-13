@@ -20,7 +20,7 @@ module.exports = appInfo => {
     token: 'wx84585f075bb7a794',
     appid: 'wx7999f9177654f5d4',
     encodingAESKey: '',
-    appSecret: '3f18e69460af75ecdbc279576e3070f3',
+    appSecret: '995d8f78879302e1fe5d8ec0cd5c91c6',
     urlPrefix: 'https://api.weixin.qq.com/cgi-bin/'
   }
 
