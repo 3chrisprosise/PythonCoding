@@ -21,17 +21,26 @@ class WechatService extends Service {
   async varidate(token, signature, timestamp, nonce, echostr){
     let array = [token, timestamp, nonce];
     let str = array.sort().join('');
-    // let sha1Code = Crypto.createHash("sha1");
-    // let code = sha1Code.update(str).digest("hex");
-    let code = Sha1(str)
-    console.log(code)
-    console.log(signature) 
+    let sha1Code = Crypto.createHash("sha1");
+    let code = sha1Code.update(str).digest("hex");  
     return code === signature ? echostr : "err"
   }
+
+
+  async getAndSaveAccessToken(grant_type, appid, secret){
+    
+  }
+
+
+  async updateAccessToken(){
+
+  }
+
 
   async makeMenu(){
 
   }
+
 }
 
 module.exports = WechatService;
