@@ -68,7 +68,7 @@ class WechatService extends Service {
    * @memberof WechatService
    */
   async getAccessToken(){
-    console.log(this.redis.get('access_token'))
+    console.log( await this.redis.get('access_token'));
     if(!this.redis.get('access_token')){
       return await getAccessTokenFromServer();
     }
