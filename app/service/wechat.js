@@ -39,7 +39,7 @@ class WechatService extends Service {
   /**
    * BASE API
    * 从微信端获取的 access_token 默认加载配置项中的 appid 和 appsecret， 同时会强制更新本地存储的 access_token, 过期时间与返回的时间提前 20 秒
-   * @returns { json } 从微信端获取的accessToken { access_token: 'access_token', expires_in: 'number' }
+   * @returns { json } 从微信端获取的 accessToken { access_token: 'access_token', expires_in: 'number' }
    * @memberof WechatService
    */
   async getAccessTokenFromServer(){
@@ -61,18 +61,6 @@ class WechatService extends Service {
     return resData.data;
   }
 
-
-  /**
-   * BASE API
-   * 强制更新本地的 access_Token
-   * @returns { string } access_token
-   * @memberof WechatService
-   */
-  async updateLocalAccessToken(){
-    let access_token = await this.getAccessTokenFromServer()
-    return access_token
-  }
-  
   /**
    * BASE API
    * 获取 accessToken
@@ -81,7 +69,7 @@ class WechatService extends Service {
    */
   async getAccessToken(){
     if(! this.redis.get('access_token')){
-      return await this.getAccessTokenFromServer();
+      return await getAccessTokenFromServer();
     }
     return this.redis.get('access_token')
   }
