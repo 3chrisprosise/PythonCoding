@@ -48,11 +48,11 @@ class WechatService extends Service {
   async getAccessTokenFromServer(appid=null, appsecret=null){
     let appid = appid || this.appid;
     let secret = secret || this.appsecret;
-    let grant_type = access_token || 'client_credential';
     let resData = await this.app.curl(`https://api.weixin.qq.com/cgi-bin/token?grant_type=client_credential&appid=${appid}&secret=${secret}`,{
       method: 'GET',
       dataType: 'json'
     });
+    console.log(resData)
     if(!resData.data.access_token){
       console.error("从服务器端获取 access_token 异常");
       let err = new Error('accessToken Error');
