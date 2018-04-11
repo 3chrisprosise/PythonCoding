@@ -49,6 +49,7 @@ class WechatService extends Service {
       method: 'GET',
       dataType: 'json'
     });
+    console.log(resData.data);
     if(!resData.data.access_token){
       console.error("从服务器端获取 access_token 异常");
       let err = new Error('accessToken Error');
@@ -88,7 +89,7 @@ class WechatService extends Service {
   async getWeChatServerIp(){
 
   }
-  
+
   async makeMenu(){
 
   }
