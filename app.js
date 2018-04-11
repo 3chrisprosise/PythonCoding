@@ -1,6 +1,7 @@
 'use strict'
 module.exports = app => {
-    app.beforeStart(async () => {
-        await app.model.sync({force: true})
-    });
+    // // 强制同步数据库
+    // app.beforeStart(async () => {
+    //     await app.model.sync({force: true})
+    // });
 }

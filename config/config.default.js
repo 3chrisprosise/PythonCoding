@@ -16,14 +16,30 @@ module.exports = appInfo => {
     }
   }
 
+  // 微信配置相关
   config.wechat_config = {
-    token: 'wx84585f075bb7a794',
+    token: 'wx84585f075bb7a794',  //这里目前是测试号配置
     appid: 'wx84585f075bb7a794',
     encodingAESKey: '',
-    appSecret: '995d8f78879302e1fe5d8ec0cd5c91c6',
+    appsecret: '995d8f78879302e1fe5d8ec0cd5c91c6',
     urlPrefix: 'https://api.weixin.qq.com/cgi-bin/'
   }
 
+  // 微信错误提示码
+  config.wechat_error = {
+    WXBizMsgCrypt_OK: 0,
+    WXBizMsgCrypt_ValidateSignature_Error: -40001,
+    WXBizMsgCrypt_ParseXml_Error: -40002,
+    WXBizMsgCrypt_ComputeSignature_Error: -40003,
+    WXBizMsgCrypt_IllegalAesKey: -40004,
+    WXBizMsgCrypt_ValidateCorpid_Error: -40005,
+    WXBizMsgCrypt_EncryptAES_Error: -40006,
+    WXBizMsgCrypt_DecryptAES_Error: -40007,
+    WXBizMsgCrypt_IllegalBuffer: -40008,
+    WXBizMsgCrypt_EncodeBase64_Error: -40009,
+    WXBizMsgCrypt_DecodeBase64_Error: -40010,
+    WXBizMsgCrypt_GenReturnXml_Error: -40011,
+  }
 
   // mysql 数据库连接配置
   config.mysql = {
@@ -83,6 +99,14 @@ module.exports = appInfo => {
         ]
   }
 
-
+  // redis 配置
+  config.redis = {
+    client: {
+      port: 6379,          // Redis port
+      host: '120.77.87.244',   // Redis host
+      password: '123456',
+      db: 0,
+    },
+  }
   return config;
 };
