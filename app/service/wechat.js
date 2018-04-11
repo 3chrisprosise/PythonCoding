@@ -12,7 +12,8 @@ const moment = require('moment');
  */
 class WechatService extends Service {
 
-  constructor(){
+  constructor(ctx){
+    super(ctx);
     this.appid = this.config.wechat_config.appid;
     this.appsecret = this.config.wechat_config.appsecret;
     this.redis = this.app.redis;
