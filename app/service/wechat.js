@@ -37,11 +37,8 @@ class WechatService extends Service {
 
 
   /**
-   * 
+   * BASE API
    * 从微信端获取的 access_token 默认加载配置项中的 appid 和 appsecret， 同时会强制更新本地存储的 access_token, 过期时间与返回的时间提前 20 秒
-   * @param { string } [grant_type=null] 
-   * @param { string } [appid=null] 
-   * @param { string } [secret=null] 
    * @returns { json } 从微信端获取的accessToken { access_token: 'access_token', expires_in: 'number' }
    * @memberof WechatService
    */
@@ -52,7 +49,6 @@ class WechatService extends Service {
       method: 'GET',
       dataType: 'json'
     });
-    console.log(resData)
     if(!resData.data.access_token){
       console.error("从服务器端获取 access_token 异常");
       let err = new Error('accessToken Error');
@@ -66,10 +62,8 @@ class WechatService extends Service {
 
 
   /**
-   * 
+   * BASE API
    * 强制更新本地的 access_Token
-   * @param { string } appid
-   * @param { string } appsecret
    * @returns { string } access_token
    * @memberof WechatService
    */
@@ -79,8 +73,8 @@ class WechatService extends Service {
   }
   
   /**
+   * BASE API
    * 获取 accessToken
-   * 
    * @returns accessToken的值
    * @memberof WechatService
    */
@@ -91,6 +85,10 @@ class WechatService extends Service {
     return await this.redis.get('access_token')
   }
 
+  async getWeChatServerIp(){
+
+  }
+  
   async makeMenu(){
 
   }
