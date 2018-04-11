@@ -88,7 +88,7 @@ class WechatService extends Service {
     if(! this.redis.get('access_token')){
       return await this.getAccessTokenFromServer();
     }
-    return this.redis.get('access_token')
+    return await this.redis.get('access_token')
   }
 
   async makeMenu(){

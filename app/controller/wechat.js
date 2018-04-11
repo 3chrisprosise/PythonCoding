@@ -38,7 +38,7 @@ class WechatController extends Controller {
   async getAccessToken(){
     let access_token = await this.ctx.service.wechat.getAccessToken()
     this.ctx.body = {
-      access_token
+      access_token: access_token
     }
   }
 }
