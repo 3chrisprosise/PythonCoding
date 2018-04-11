@@ -45,9 +45,9 @@ class WechatService extends Service {
    * @returns { json } 从微信端获取的accessToken { access_token: 'access_token', expires_in: 'number' }
    * @memberof WechatService
    */
-  async getAccessTokenFromServer(appid=null, appsecret=null){
-    let appid = appid || this.appid;
-    let secret = secret || this.appsecret;
+  async getAccessTokenFromServer(){
+    let appid = this.appid;
+    let secret = this.appsecret;
     let resData = await this.app.curl(`https://api.weixin.qq.com/cgi-bin/token?grant_type=client_credential&appid=${appid}&secret=${secret}`,{
       method: 'GET',
       dataType: 'json'
@@ -73,8 +73,8 @@ class WechatService extends Service {
    * @returns { string } access_token
    * @memberof WechatService
    */
-  async updateLocalAccessToken(appid=null, appsecret=null){
-    let access_token = await this.getAccessTokenFromServer(appid=null, appsecret=null)
+  async updateLocalAccessToken(){
+    let access_token = await this.getAccessTokenFromServer()
     return access_token
   }
   
