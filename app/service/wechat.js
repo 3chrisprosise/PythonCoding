@@ -70,11 +70,10 @@ class WechatService extends Service {
   async getAccessToken(){
 
     this.getAccessTokenFromServer();
-    console.log( await this.redis.get('access_token'));
-    if(this.redis.get('access_token')){
+    if( ! this.redis.get('access_token')){
       return await this.getAccessTokenFromServer();
     }
-    return this.redis.get('access_token')
+    return await this.redis.get('access_token')
   }
 
   async getWeChatServerIp(){
