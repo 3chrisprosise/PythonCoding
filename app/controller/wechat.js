@@ -35,15 +35,11 @@ class WechatController extends Controller {
     this.ctx.body = result
   }
 
-  async getAndSaveAccessToken(){
-    let token = this.config.wechat_config.token;
-    let appid = this.config.wechat_config.appid;
-    let appSecret = this.config.wechat_config.appSecret;
-    let grant_type = "client_credential"
-
-    let result = await this.ctx.service.wechat.getAndSaveAccessToken(
-      
-    )
+  async getAccessToken(){
+    let access_token = await this.ctx.service.wechat.getAccessToken()
+    this.ctx.body = {
+      access_token
+    }
   }
 }
 
