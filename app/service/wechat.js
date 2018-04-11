@@ -60,7 +60,7 @@ class WechatService extends Service {
       err.code = 40001;
       throw err;
     }
-    this.redis.set('access_token', resData.access_token, 'EX', parseInt(resData.expires_in) - 20)
+    this.redis.set('access_token', resData.access_token, 'EX', parseInt(resData.data.expires_in) - 20)
     return resData.data;
   }
 
